@@ -1,0 +1,32 @@
+name: esidiff
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  # PyTorch 相关（使用 CUDA 12.4）
+  - pytorch>=2.4
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.4
+  # 科学计算基础
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=1.5
+  - scikit-learn>=1.2
+  # 数据处理
+  - h5py>=3.8
+  - pyyaml>=6.0
+  - tqdm>=4.65
+  # 神经影像
+  - mne>=1.5
+  - nibabel>=5.1
+  # pip 安装的包
+  - pip:
+    - einops>=0.7.0
+    - ema-pytorch>=0.4.3
+    - swanlab>=0.3.14
+    - determined>=0.33.0
