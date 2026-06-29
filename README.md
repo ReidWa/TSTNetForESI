@@ -3,7 +3,6 @@
 本目录整理了论文 **Tikhonov Shrinkage-Threshold Network: A Single-Step Inverse Solver for EEG Source Imaging** 中与模拟数据生成、单被试模拟训练和独立模拟测试直接相关的代码快照。
 
 整理日期：2026-06-28  
-来源代码库：`C:\ExperimentCodes\ESIdiff`
 
 ## 范围
 
